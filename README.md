@@ -10,5 +10,3 @@ my love for music with programming.
 - **Backend:** Node.js, Express
 - **Database:** MySQL with Sequelize ORM
 - **Dev Tools:** Insomnia for API testing
-
-## Project Structure
