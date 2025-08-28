@@ -11,6 +11,7 @@ function App() {
       setPostList(response.data);
     });
   }, []);
+  
   return (
     <div className="App">
       {postsList.map((value, key) => { 

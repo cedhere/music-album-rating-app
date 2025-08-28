@@ -15,3 +15,5 @@ build/
 .vscode/
 
 server/config/config.json
+archives.css
+notes.md
