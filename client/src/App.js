@@ -11,12 +11,14 @@ function App() {
       setPostList(response.data);
     });
   }, []);
-  
+
   return (
     <div className="App">
       {postsList.map((value, key) => { 
-        return <div className="post"> 
-          <div className="user">{value.user_id} rated {value.album_id}</div>
+        return <div className="post" key = {value.id}> 
+          <div className="user">
+            {value.user_id} rated {value.album_id}
+          </div>
           <div className="rating">{value.rating}</div> 
           <div className="caption">{value.caption}</div>
         </div>
