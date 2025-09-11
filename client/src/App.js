@@ -10,7 +10,7 @@ function App() {
         <Link to="/createpost"> Create A Post</Link>
         <Routes>
           <Route path="/" element={<Home />} />
-           <Route path="/createpost" element={<Home />} />
+           <Route path="/createpost" element={<CreatePost />} />
         </Routes>
       </Router>
     </div>
