@@ -4,18 +4,16 @@ import { Formik, Form, Field } from "formik";
 function CreatePost() {
   return (
     <div className="createPostPage">
-      <h2>Create a Post</h2>
-      <Formik initialValues={{ caption: "" }}>
+      <Formik> 
         <Form>
-          {/* This is the box */}
-          <Field
-            as="textarea"
-            id="createPostInput"
-            name="caption"
-            placeholder="Share your thoughts..."
-            rows="4"
-            cols="50"
+          <label>Caption: </label>
+          <Field 
+            id="createPostInput" 
+            name="caption" 
+            placeholder="Share your opinions..."
           />
+
+          <button type="submit"> Post!</button>
         </Form>
       </Formik>
     </div>
