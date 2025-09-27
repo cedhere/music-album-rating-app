@@ -9,8 +9,8 @@ function App() {
       <Router>
         {/* Navbar */}
         <div className="navbar">
-          <Link to="/createpost" className="nav-link">Create A Post</Link>
           <Link to="/" className="nav-link">Feed</Link>
+          <Link to="/createpost" className="nav-link">Create A Post</Link>
         </div>
 
         {/* Routes */}

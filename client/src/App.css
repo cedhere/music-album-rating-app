@@ -1,13 +1,13 @@
 :root {
-  --bg: #0f172a;          /* page background */
-  --surface: #1e293b;     /* card */
-  --strip: #111827;       /* header/footer strip */
-  --text: #f1f5f9;        /* main text */
-  --muted: #94a3b8;       /* secondary text */
-  --violet: #8b5cf6;      /* primary accent */
-  --pink: #ec4899;        /* playful hover */
-  --cyan: #22d3ee;        /* alt hover */
-  --gold: #facc15;        /* rating stars/number */
+  --bg: #0f172a;         
+  --surface: #1e293b;
+  --strip: #111827; 
+  --text: #f1f5f9; 
+  --muted: #94a3b8;  
+  --violet: #8b5cf6;   
+  --pink: #ec4899;        
+  --cyan: #22d3ee;   
+  --gold: #facc15;
   --ring: rgba(139, 92, 246, 0.35);
   --border: rgba(255,255,255,0.06);
   --shadow: 0 12px 32px rgba(0,0,0,0.45);
