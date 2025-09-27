@@ -120,7 +120,7 @@ body {
   border-radius: 8px;
   border: 1px solid #2c3e50;
   font-size: 14px;
-  background-color: #1f2937; /* darker field background */
+  background-color: #1f2937;
   color: #f0f0f0;
 }
 
@@ -132,7 +132,7 @@ body {
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background-color: #6a0dad; /* royal purple */
+  background-color: #6a0dad;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -140,6 +140,38 @@ body {
 }
 
 .createPostPage button:hover {
-  background-color: #7b68ee; /* lighter purple on hover */
+  background-color: #7b68ee;
   transform: translateY(-2px);
+}
+
+/* navbar styles */
+.navbar {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: var(--strip);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.nav-link {
+  color: var(--violet);
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--gold);
+  transform: translateY(-2px);
+  text-shadow: 0 0 8px rgba(250, 204, 21, 0.5);
+}
+
+.nav-link.active {
+  color: var(--cyan);
+  border-bottom: 2px solid var(--cyan);
+  padding-bottom: 2px;
 }
