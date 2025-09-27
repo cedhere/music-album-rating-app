@@ -89,3 +89,57 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+.createPostPage {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.createPostPage form {
+  background-color: #111827; /* dark background (almost black-blue) */
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f0f0f0;
+}
+
+.createPostPage label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #f9f9f9;
+}
+
+#createPostInput {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #2c3e50;
+  font-size: 14px;
+  background-color: #1f2937; /* darker field background */
+  color: #f0f0f0;
+}
+
+#createPostInput::placeholder {
+  color: #9ca3af;
+}
+
+.createPostPage button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6a0dad; /* royal purple */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.createPostPage button:hover {
+  background-color: #7b68ee; /* lighter purple on hover */
+  transform: translateY(-2px);
+}
