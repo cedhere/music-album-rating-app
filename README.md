@@ -6,7 +6,8 @@ my love for music with programming.
 IN VERY EARLY STAGES OF DEVELOPMENT
 
 ## Tech Stack
-- **Frontend:** React (Axios)
+- **Frontend:** React
 - **Backend:** Node.js, Express
 - **Database:** MySQL with Sequelize ORM
 - **Dev Tools:** Insomnia for API testing
+- **Dependencies** React Router DOM, Axios
