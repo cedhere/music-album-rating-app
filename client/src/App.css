@@ -132,7 +132,7 @@ body {
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background-color: #6a0dad;
+  background-color: #000080; /* your strong navy blue */
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -140,7 +140,7 @@ body {
 }
 
 .createPostPage button:hover {
-  background-color: #7b68ee;
+  background-color: #0010a0; /* slightly lighter/brighter navy for hover */
   transform: translateY(-2px);
 }
 
@@ -174,4 +174,60 @@ body {
   color: var(--cyan);
   border-bottom: 2px solid var(--cyan);
   padding-bottom: 2px;
+}
+
+/* Single Post Page */
+.postPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background: var(--bg);
+  min-height: 100vh;
+  color: var(--text);
+}
+
+/* Main post container */
+.postPortion {
+  width: 600px;
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+/* Top user line */
+.postPortion .username {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+/* Rating */
+.postPortion .postRating {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+/* Caption/footer */
+.postPortion .footer {
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--strip);
+  padding: 14px 18px;
+  border-radius: 10px;
+  color: var(--text);
+}
+
+/* Comment section */
+.commentSection {
+  width: 600px;
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  font-size: 16px;
+  color: var(--text);
 }
